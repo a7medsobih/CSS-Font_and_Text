@@ -1,16 +1,17 @@
-#font {
+.font {
     font-style: italic;
-    /* font-style: oblique ;  */
+    /*the text is shown in italics (مائل) */
+    /* font-style: oblique ;   oblique is very similar to italic, but less supported ,each property  works with a different font type */
     font-size: 25px;
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#font2 {
+.font2 {
     line-height: 3;
 }
 
-#shadow {
+.shadow {
     font-size: 25px;
     font-weight: bolder;
     line-height: 2;
@@ -18,17 +19,19 @@
         0px -5px 5px yellow;
 }
 
-#wrap1,
-#wrap2 {
+.wrap1,
+.wrap2 {
     width: 200px;
     border: 1px solid black;
 }
 
-#wrap1 {
+.wrap1 {
     word-wrap: normal;
+    /*If a word is too long to fit within the element's area, it expands outward*/
     /*default*/
 }
 
-#wrap2 {
+.wrap2 {
     word-wrap: break-word;
+    /*allows you to force the text to wrap - even if it means splitting it in the middle of a word*/
 }
